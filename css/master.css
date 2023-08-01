@@ -1,0 +1,132 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    
+.h
+ {
+    color: black;
+    font-size: 30px;
+    background-image:linear-gradient(to right,red,green,yellow,black);
+    
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid black;
+
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0 2px #ccc;
+} 
+
+
+.one{
+    background-color:rgb(198, 198, 198);
+    color: rgb(10, 10, 10);
+    text-shadow: 0 0 red;
+    font-size: 20px;
+
+
+}
+
+
+.one::selection{background-color: black;
+    color: yellow;
+
+}
+
+.par {
+    font-size: 20px;
+    width: 200px;
+}
+.link{
+background-color: rgb(83, 213, 83);
+font-size: 20px;
+border-radius: 3px solid rgb(44, 67, 10);
+margin: 5px;
+}
+.face{
+    background-color: rgb(12, 12, 245);
+    font-size: 20px;
+    color: black;
+    border-radius: 5px ;
+    
+
+}
+a:hover {
+    color: rgb(0, 21, 255);
+
+}
+.flex{
+    font-size: 15px ;
+    background-color: chocolate;
+    margin: 15px auto;
+    width: 97%;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    justify-content: center;
+    align-items: center; 
+    
+
+}
+.flex a {
+    width: 10%;
+    text-align: center;
+    color:black;
+   
+    
+}
+.flex a:hover{
+    color: blue;
+}
+.search{
+    border-radius: 20px;
+    border: 1px solid ;
+    width: 250px;
+    position: static;
+    transform: translate(60px);
+    
+
+}
+.button{
+    transform: translate(70px);
+}
+.clear{
+    clear: both;
+}
+
+
+.table{width: 100%;
+    border: 1px solid #ccc;
+border-spacing: 1px;
+
+}
+table td{
+    padding: 15px;
+    border: 1px solid #ccc;
+    
+    
+
+}
+table thead th{
+    background-color: rgb(31, 219, 119);
+    font-weight:bold;
+    text-align: center;
+    color:white;
+    border-radius: 10px ;
+}
+.ulparent{
+    margin: 20px auto;
+    width: 70%;
+    height: 200px;
+    background-color: rgb(162, 67, 67);
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows:auto;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
